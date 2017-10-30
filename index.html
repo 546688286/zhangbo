@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="big">
+			<div class="logoone"></div>
+			<div class="logotwo">
+				<a href="优扬/index.html">项目介绍一</a>
+			</div>
+			<div class="logothree">
+				 <a href="jieshao.html">个人介绍</a>
+			</div>
+			<div class="logofour"></div>
+			<div class="logofive">
+				<a href="蜘蛛网作业/index.html">项目介绍二</a>
+			</div>
+			<div class="logosix">
+				<a href="广州银行/index.html">项目介绍三</a>
+			</div>
+			<div class="logoxen"></div>
+		
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript">
+	(function (doc, win) {
+          var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+			  if(clientWidth>1200){
+				   docEl.style.fontSize = 100 * (clientWidth / 1903) + 'px';
+				}
+			   else 	  
+            docEl.style.fontSize = 73.56805044666316  + 'px';
+            };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+</script>

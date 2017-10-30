@@ -1,0 +1,861 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	min-width: 1300px;
+	max-width: 1920px;
+	font-family: "微软雅黑";
+}
+.banner{
+	width: 100%;
+	height: 500%;
+	overflow: hidden;
+	transition: 0.8s;
+}
+.BanOne{
+	width: 100%;
+	height: 20%;
+	background: url(img/1.png);
+	position: relative;
+	background-size: 100% 100%;
+}
+.BanTwo{
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+.BanThree{
+	width: 100%;
+	height:20%;
+	position: relative;
+}
+.BanFour{
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+.BanFive{
+	width: 100%;
+	height: 20%;
+	position: relative;
+}
+.center{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.CenterTop{
+	width: 100%;
+	height: 50px;
+	background: white;
+	position: absolute;
+	top: 0;
+	z-index: 30;
+}
+.CTLeft{
+	width: 145px;
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+.CTCen{
+	width: 440px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.CTCen p{
+	width: 95px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	float: left;
+	color: #666666;
+}
+.CTRight{
+	width: 545px;
+	height: 100%;
+	float: right;
+	color: #666666;
+}
+.CTRight ul{
+	width: 225px;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+.CTRight ul li{
+	width: 74px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	cursor: pointer;
+}
+.CTRight ul span{
+	width: 1px;
+	height: 22px;
+	float: left;
+	display: block;
+	background: #666666;
+	margin-top: 13px;
+}
+.wnload{
+	width: 80px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.login{
+	width:42px;
+	height: 100%;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	cursor: pointer;
+	margin-left:30px;
+}
+.search{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.search img{
+	width: 100%;
+	display: block;
+}
+.SideNav{
+	width: 68px;
+	height: 68px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.SideNav img{
+	width: 100%;
+	display: block;
+}
+.SideNav_cen{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.35);
+	display: none;
+	z-index: 30;
+}
+.SideNavCenCon{
+	width: 300px;
+	height: 100%;
+	background: #004b5d;
+	float: right;
+}
+#Iimg{
+	width: 100%;
+	height: 49px;
+	display: block;
+	cursor: pointer;
+}
+.SideNavCenCon ul{
+	width: 100%;
+	height: auto;
+}
+.SideNavCenCon ul li{
+	width: 100%;
+	line-height: 65px;
+	color: white;
+	text-indent: 28px;
+	font-size: 20px;
+}
+.SideNavCenCon ul li img{
+	margin-left:120px;
+	width: 18px;
+	cursor: pointer;
+}
+.Btn{
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -50px;
+	z-index: 22;
+}
+.BtnLeft{
+	width: 100%;
+	height: 50px;
+	background: white;
+	color: #fdb813;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	font-family: "宋体";
+	font-size: 28px;
+	font-weight: bold;
+}
+.BtnRight{
+	width: 100%;
+	height: 50px;
+	background: white;
+	color: #fdb813;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	font-family: "宋体";
+	font-size: 28px;
+	font-weight: bold;
+}
+.RightFous{
+	width: 45px;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 30;
+	margin-top: -80px;
+}
+.RightFous li{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: white;
+	cursor: pointer;
+	margin-left: 16px;
+	margin-top: 16px;
+}
+.RightFous .Lli{
+	width: 15px;
+	height: 15px;
+	background: none;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin-left: 12px;
+}
+.BanOneImg{
+	width: 200%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.BanOneImg img{
+	width: 50%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.P_BanOne{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	padding-top: 50px;
+}
+.P_BO_Top{
+	width: 100%;
+	height: 330px;
+}
+.biglogo{
+	width: 93%;
+	height: 100px;
+	margin-left: 7%;
+	margin-top: 20px;
+}
+.biglogo img{
+	width: 300px;
+	display: block;
+}
+.P_BText{
+	width: 93%;
+	height: 70px;
+	margin-left: 7%;
+	color: #004b5d;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.P_BTextsomml{
+	width: 93%;
+	height: 45px;
+	margin-left: 7%;
+	color: #004b5d;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.lookat{
+	width: 150px;
+	height: 40px;
+	background: rgba(0,0,0,0.35);
+	border-radius: 8px;
+	border: 1px solid white;
+	margin-left: 7%;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	cursor: pointer;
+}
+.P_BO_Boot{
+	width: 100%;
+	height:100px;
+	margin-top: 30px;
+}
+.P_BO_Boott{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+.PBOBcen{
+	width: 30%;
+	height: 100px;
+	background: rgba(255,255,255,0.85);
+	float: left;
+	margin-left: 2%;
+}
+.personal{
+	width: 80px;
+	height: 80px;
+	color: #666666;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.personal img{
+	width: 65px;
+	height: 65px;
+	display: block;
+	margin:  7px auto 4px;
+}
+.PBOBcenText{
+	width: 93px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	color: #004b5d;
+	line-height: 30px;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.BTlunbo{
+	width: 66.667%;
+	height: 50%;
+	float: left;
+	background: red;
+	overflow: hidden;
+	position: relative;
+	transition: 0.7s;
+}
+.BTLimg{
+	width: 200%;
+	height: 100%;
+}
+.BTLimg img{
+	width: 50%;
+	display: block;
+	float: left;
+}
+.BTLimg ul{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+}
+.BTLimg ul li{
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+ 	float: left;
+ 	margin-top: 17.5px;
+ 	margin-left: 20px;
+ 	cursor: pointer;
+}
+.BTLimg .ulli{
+	width: 15px;
+	height: 15px;
+	background: none;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin-top: 14px;
+}
+.BTLP1{
+	position: absolute;
+	top: 100px;
+	left: 480px;
+	color: #84715b;
+	font-size: 22px;
+	font-weight: bold;
+}
+.BTLP2{
+	position: absolute;
+	top: 150px;
+	left: 480px;
+	color: #84715b;
+	font-size: 26px;
+	font-weight: bold;
+}
+.BTRText{
+	width: 33.223%;
+	height: 50%;
+	float: left;
+}
+.san{
+	width: 85%;
+	height: 30px;
+	line-height: 30px;
+	color: #004b5d; 	
+	font-size: 24px;
+	text-align: right;
+	margin-top: 70px;
+}
+.sun{
+	width: 85%;
+	height: 30px;
+	line-height: 30px;
+	color: #004b5d; 	
+	text-align: right;
+}
+.tjc{
+	width: 85%;
+	height: 30px;
+	overflow: hidden;
+}
+.tjc p{
+	float: right;
+	margin-left: 20px;
+	line-height: 30px;
+	color: #666666;
+	cursor: pointer;
+}
+.tyimg{
+	width: 85%;
+	height: 160px;
+	overflow: hidden;
+}
+.tyimg img{
+	width: 30%;
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+.ck{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float:right;
+	margin-top: 80px;
+	color: #004b5d;
+	text-align: right;
+	cursor: pointer;
+}
+.BTHbox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.BTHBleft{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.headimg{
+	width: 100%;
+	height: 50%;
+	background: url(img/18.png) no-repeat;
+	position: relative;
+	/*background-size: 100% 100%;*/
+}
+.headimg p{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: rgba(255,255,255,0.55);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #004b5d;
+	cursor: pointer;
+	font-weight: bold;
+}
+.bottext{
+	width: 90%;
+	height: 50%;
+	background: #004b5d;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.bottext img{
+	width: 120px;
+	height: 120px;
+	display: block;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+
+
+.BTHBright{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.licai{
+	width:78%;
+	margin: 100px auto 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	color: #004b5d;
+	font-size: 24px;
+	font-weight: bold;
+}
+.BTHBright p{
+	width: 78%;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	color: #004b5d;
+	/*font-size: 14px;*/
+	text-align: right;
+	cursor: pointer;
+}
+.BTHBBtto{
+	width: 78%;
+	height: 60px;
+	margin: 170px auto 0; 
+	overflow: hidden;
+}
+.BTHBBtto .BTHBBttoP1{
+	width: 120px;
+	height: 40px;
+	background: #cacbcd;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	color: #666666;
+	margin-left: 80px;
+}
+.BTHBBtto .BTHBBttoP2{
+	width: 120px;
+	height: 40px;
+	background: #004b5d;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	margin-left: 40px;
+}
+.gd{
+	width: 80px;
+	height: 40px;
+	float: right;
+	color: #666666;
+	line-height: 40px;
+	cursor: pointer;
+	text-align: right;
+}
+.BFbox{
+	width: 100%;
+	height: 100%;
+}
+.BFBtop{
+	width: 100%;
+	height: 78%;
+	background: url(img/25.png) no-repeat;
+	position: relative;
+}
+.dt{
+	width: 80%;
+	height: 30%;
+	margin: 0 auto;
+	position: relative;
+}
+.dt p{
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+}
+.BFBTbox{
+	width: 80%;
+	height: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xx{
+	width: 39.5%;
+	height: 100%;
+	float: left;
+	background: white;
+	border-top: 2px solid #fdb813;
+	box-sizing: border-box;
+}
+.Xhead{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: #004b5d;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+}
+.xx p{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #e8e8e8;
+	color: #004b5d;
+	line-height: 40px;
+	font-size: 14px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.xx p a{
+	float: left;
+}
+.xx p b{
+	float: right;
+}
+
+.gg{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background: white;
+	border-top: 2px solid #fdb813;
+	box-sizing: border-box;
+}
+.Ghead{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: #004b5d;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+}
+.gg p{
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #e8e8e8;
+	color: #004b5d;
+	line-height: 40px;
+	font-size: 14px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.gg p a{
+	float: left;
+}
+.gg p b{
+	float: right;
+}
+.BFBboot{
+	width: 100%;
+	height: 22%;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.BFBBleft{
+	width: 300px;
+	height: 100%;
+	float: left;
+	margin-left: 200px;
+	overflow: hidden;
+	margin-right: 30px;
+}
+.BFBBleft p{
+	float: left;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	background: #004b5d;
+	margin-left: 10px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+.BFBBimg{
+	width: 90px;
+	height: 90px;
+	float: left;
+	color: #004b5d;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.BFBBimg img{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+.BFIbox{
+	width: 100%;
+	height: 100%;
+}
+.BFItop{
+	width: 100%;
+	height:45%;
+	background: url(img/30.png) no-repeat;
+	background-size: 100% 100%;
+}
+.BFTcen{
+	width: 100%;
+	height: 15%;
+	background: white;
+}
+.BFTCimg{
+	width: 160px;
+	height: 160px;
+	float: left;
+	text-align: center;
+	color: #004b5d;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: -80px;
+	margin-left: 150px;
+}
+.BFTCimg img{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.BFTBox{
+	width: 100%;
+	height: 30px;
+	background: #fdb813;
+	margin-top: 70px;
+}
+.BFTbtto{
+	width: 80%;
+	height: 150px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #004b5d;
+}
+.BFTBleft{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.BFTBtext{
+	width: 100%;
+	height: 40px;
+}
+.BFTBtext ul{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.BFTBtext ul li{
+	float: left;
+	line-height: 40px;
+	color: #004b5d;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.dz{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	color: #004b5d;
+	cursor: pointer;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.BFTBright{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.BFTBRimg{
+	width: 100px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	color: #333333;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.BFTBRimg img{
+	width: 90%;
+	display: block;
+	margin: 0 auto 3px;
+}
+.indexli{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #FDB813;
+	cursor: pointer;
+	margin-left: 16px;
+	margin-top: 16px;
+}
+.indexlli{
+	width: 15px;
+	height: 15px;
+	background: none;
+	border: 3px solid #FDB813;
+	border-radius: 50%;
+	margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

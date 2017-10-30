@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "楷体";
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.big {
+	width: 100%;
+	height: 100%;
+	background: url(../imges/6.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.logoone {
+	width:3rem;
+	height: 3rem;
+	background:url(../imges/3.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 5.1rem;
+	top: 3.2rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logoone:hover{
+	transition: all 1s;
+	background: url(../imges/10.jpg) no-repeat;
+	background-size: 100% 100%;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+
+}
+.logotwo{
+	width:3rem;
+	height: 3rem;
+	background:rgba(255,255,255,0.55);
+	background-size: 100% 100%;
+	position: absolute;
+	left:6.7rem;
+	top: 0.75rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size:30px;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logotwo:hover{
+	background: rgba(0,0,0,0.55);
+	color: yellow;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
+.logotwo:hover a{
+	color: yellow;
+}
+.logothree{
+	width:3rem;
+	height: 3rem;
+	background:rgba(255,255,255,0.55);
+	background-size: 100% 100%;
+	position: absolute;
+	left:8.3rem;
+	top: 3.2rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 30px;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logothree:hover{
+	background: rgba(0,0,0,0.55);
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+	color: yellow;
+}
+.logothree:hover a{
+	color: yellow;
+}
+.logofour{
+	width:3rem;
+	height: 3rem;
+	background:url(../imges/7.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left:9.9rem;
+	top: 0.75rem;
+	color: white;
+	text-align: center;
+	line-height: 3.5rem;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logofour:hover{
+	background:url(../imges/8.jpg) no-repeat;
+	background-size: 100% 100%;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
+.logofive{
+	width:3rem;
+	height: 3rem;
+	background:rgba(255,255,255,0.55);
+	position: absolute;
+	left:11.5rem;
+	top: 3.2rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size:30px;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logofive:hover{
+	background: rgba(0,0,0,0.55);
+	color: yellow;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
+.logofive:hover a{
+	color: yellow;
+}
+.logosix{
+	width:3rem;
+	height: 3rem;
+	background:rgba(255,255,255,0.55);
+	position: absolute;
+	left:6.7rem;
+	top: 5.6rem;
+	color: white;
+	text-align: center;
+	line-height: 3rem;
+	font-size:30px;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logosix:hover{
+	background: rgba(0,0,0,0.55);
+	color: yellow;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
+.logosix:hover a{
+	color: yellow;
+}
+.logoxen{
+	width:3rem;
+	height: 3rem;
+	background:url(../imges/5.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	left:9.9rem;
+	top: 5.6rem;
+	color: white;
+	text-align: center;
+	line-height: 3.5rem;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-clip-path: polygon(50% 0%, 50% 0%, 100% 25%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.logoxen:hover{
+	background:url(../imges/9.jpg) no-repeat;
+	background-size: 100% 100%;
+	-webkit-clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
+
